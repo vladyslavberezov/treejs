@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Demo</title>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r126/three.min.js"
+    integrity="sha512-n8IpKWzDnBOcBhRlHirMZOUvEq2bLRMuJGjuVqbzUJwtTsgwOgK5aS0c1JA647XWYfqvXve8k3PtZdzpipFjgg=="
+    crossorigin="anonymous"></script>
+  <!-- https://stackoverflow.com/questions/64409605/how-do-i-load-gltfloader-from-a-cdn-three-js -->
+  <script src="https://unpkg.com/three@0.141.0/examples/js/loaders/GLTFLoader.js"></script>
+  <script src="https://unpkg.com/three@0.141.0/examples/js/shaders/CopyShader.js"></script>
+  <script src="https://unpkg.com/three@0.141.0/examples/js/postprocessing/EffectComposer.js"></script>
+  <script src="https://unpkg.com/three@0.141.0/examples/js/postprocessing/RenderPass.js"></script>
+  <script src="https://unpkg.com/three@0.141.0/examples/js/postprocessing/ShaderPass.js"></script>
+  <!-- <script src="https://unpkg.com/three@0.141.0/examples/js/postprocessing/DigitalGlitch.js"></script> -->
+  <script src="https://unpkg.com/three@0.141.0/examples/js/postprocessing/GlitchPass.js"></script>
+  <script src="https://unpkg.com/three@0.141.0/examples/js/shaders/RGBShiftShader.js"></script>
+</head>
+
+<body>
+  <main>
+    O hi Mark
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br /> <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br /> <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br /> <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br /> <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br /> <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br /> <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br /> <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br /> <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br /> <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br /> <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br /> <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br /> <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br /> <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br /> <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br /> <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br /> <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+  </main>
+
+  <script>
+    /**
+   * @author felixturner / http://airtight.cc/
+   *
+   * RGB Shift Shader
+   * Shifts red and blue channels from center in opposite directions
+   * Ported from http://kriss.cx/tom/2009/05/rgb-shift/
+   * by Tom Butterworth / http://kriss.cx/tom/
+   *
+   * amount: shift distance (1 is width of input)
+   * angle: shift angle in radians
+   */
+
+    THREE.DigitalGlitch = {
+
+      uniforms: {
+
+        "tDiffuse": { type: "t", value: null },//diffuse texture
+        "tDisp": { type: "t", value: null },//displacement texture for digital glitch squares
+        "byp": { type: "i", value: 0 },//apply the glitch ?
+        "amount": { type: "f", value: 0.08 },
+        "angle": { type: "f", value: 0.02 },
+        "seed": { type: "f", value: 0.02 },
+        "seed_x": { type: "f", value: 0.02 },//-1,1
+        "seed_y": { type: "f", value: 0.02 },//-1,1
+        "distortion_x": { type: "f", value: 0.5 },
+        "distortion_y": { type: "f", value: 0.6 },
+        "col_s": { type: "f", value: 0.05 }
+      },
+
+      vertexShader: [
+
+        "varying vec2 vUv;",
+        "void main() {",
+        "vUv = uv;",
+        "gl_Position = projectionMatrix * modelViewMatrix * vec4( position, 1.0 );",
+        "}"
+      ].join("\n"),
+
+      fragmentShader: [
+        "uniform int byp;",//should we apply the glitch ?
+
+        "uniform sampler2D tDiffuse;",
+        "uniform sampler2D tDisp;",
+
+        "uniform float amount;",
+        "uniform float angle;",
+        "uniform float seed;",
+        "uniform float seed_x;",
+        "uniform float seed_y;",
+        "uniform float distortion_x;",
+        "uniform float distortion_y;",
+        "uniform float col_s;",
+
+        "varying vec2 vUv;",
+
+
+        "float rand(vec2 co){",
+        "return fract(sin(dot(co.xy ,vec2(12.9898,78.233))) * 43758.5453);",
+        "}",
+
+        "void main() {",
+        "if(byp<1) {",
+        "vec2 p = vUv;",
+        "float xs = floor(gl_FragCoord.x / 0.5);",
+        "float ys = floor(gl_FragCoord.y / 0.5);",
+        //based on staffantans glitch shader for unity https://github.com/staffantan/unityglitch
+        "vec4 normal = texture2D (tDisp, p*seed*seed);",
+        "if(p.y<distortion_x+col_s && p.y>distortion_x-col_s*seed) {",
+        "if(seed_x>0.){",
+        "p.y = 1. - (p.y + distortion_y);",
+        "}",
+        "else {",
+        "p.y = distortion_y;",
+        "}",
+        "}",
+        "if(p.x<distortion_y+col_s && p.x>distortion_y-col_s*seed) {",
+        "if(seed_y>0.){",
+        "p.x=distortion_x;",
+        "}",
+        "else {",
+        "p.x = 1. - (p.x + distortion_x);",
+        "}",
+        "}",
+        "p.x+=normal.x*seed_x*(seed/5.);",
+        "p.y+=normal.y*seed_y*(seed/5.);",
+        //base from RGB shift shader
+        "vec2 offset = amount * vec2( cos(angle), sin(angle));",
+        "vec4 cr = texture2D(tDiffuse, p + offset);",
+        "vec4 cga = texture2D(tDiffuse, p);",
+        "vec4 cb = texture2D(tDiffuse, p - offset);",
+        "gl_FragColor = vec4(cr.r, cga.g, cb.b, cga.a);",
+        //add noise
+        "vec4 snow = 200.*amount*vec4(rand(vec2(xs * seed,ys * seed*50.))*0.2);",
+        "gl_FragColor = gl_FragColor+ snow;",
+        "}",
+        "else {",
+        "gl_FragColor=texture2D (tDiffuse, vUv);",
+        "}",
+        "}"
+
+      ].join("\n")
+
+    };
+
+  </script>
+
+  <script>
+
+    function setupHtmlForThree() {
+      // wrap
+      const { body } = document
+      // const oldHtml = body.innerHTML
+      // body.innerHTML = '<main>' + oldHtml + '</main>'
+
+      // setup main style
+      const main = document.querySelector('main')
+      main.style = 'position: absolute; position: absolute; width: 100%; z-index: 10;'
+
+      // add bg
+      const canvas = document.createElement('canvas')
+      canvas.style = 'position: fixed; top: 0; left: 0;'
+      canvas.id = 'bg'
+      body.append(canvas)
+    }
+    setupHtmlForThree()
+
+    const hostUrl = window.host || './'
+    const negxUrl = `${hostUrl}assets/negx.jpg`
+    const negyUrl = `${hostUrl}assets/negy.jpg`
+    const negzUrl = `${hostUrl}assets/negz.jpg`
+    const posxUrl = `${hostUrl}assets/posx.jpg`
+    const posyUrl = `${hostUrl}assets/posy.jpg`
+    const poszUrl = `${hostUrl}assets/posz.jpg`
+    const modelUrl = `${hostUrl}assets/model.glb`
+
+    forsePageStartOnTop()
+
+    /**
+     * Cursor
+     */
+    const cursor = {}
+    cursor.x = 0
+    cursor.y = 0
+
+    window.addEventListener('mousemove', (event) => {
+      cursor.x = event.clientX / sizes.width - 0.5
+      cursor.y = event.clientY / sizes.height - 0.5
+    })
+
+    const parameters = getParameters()
+
+    const scene = new THREE.Scene()
+    scene.background = new THREE.Color(parameters.sceneBackground)
+
+    /**
+     * Sizes
+     */
+    const sizes = {
+      width: window.innerWidth,
+      height: window.innerHeight,
+    }
+
+    setupSceneResize()
+
+    /**
+     * Environment map
+     */
+    setupEnvironment()
+
+    // ADD SPHERE
+    const { sphere, sphereMaterial } = getSphere()
+
+    // create model group to combine different transformations on scroll
+    let model
+    const { avatarGroup, modelGroup } = setupModel()
+
+    const camera = setupCamera()
+
+    const renderer = setupRenderer()
+
+    /**
+     * Post processing
+     */
+    const effectComposer = setupPostProccessing()
+
+    /**
+     * Lights
+     */
+    const { directLight, hemisphereLight, bluePointLight, redPointLight } = setupLight()
+
+    avatarGroup.add(redPointLight, bluePointLight, directLight)
+
+    function setupEnvironment() {
+      const cubeTextureLoader = new THREE.CubeTextureLoader()
+      const environmentMap = cubeTextureLoader.load([posxUrl, negxUrl, posyUrl, negyUrl, poszUrl, negzUrl])
+      environmentMap.encoding = THREE.sRGBEncoding
+
+      scene.environment = environmentMap
+    }
+    function setupModel() {
+      /**
+       * Update all materials
+       */
+      function updateAllMaterials(gltfModel) {
+        gltfModel.traverse((child) => {
+          if (child instanceof THREE.Mesh && child.material instanceof THREE.MeshStandardMaterial) {
+            child.material.needsUpdate = true
+            // tell to render even if model part is not fitting the camera
+            child.frustumCulled = false
+            child.castShadow = true
+            child.receiveShadow = true
+
+            child.material.needsUpdate = true
+            child.material.envMapIntensity = 3
+          }
+        })
+      }
+
+      const modelGroup = new THREE.Group()
+      const avatarGroup = new THREE.Group()
+
+      const gltfLoader = new THREE.GLTFLoader()
+      gltfLoader.load(modelUrl, (gltf) => {
+        model = gltf.scene
+        model.scale.set(2, 2, 2)
+        avatarGroup.add(model)
+        avatarGroup.position.y = -2.6
+        modelGroup.add(avatarGroup)
+        scene.add(modelGroup)
+
+        updateAllMaterials(model)
+      })
+      return { avatarGroup, modelGroup }
+    }
+
+    function setupPostProccessing() {
+      const renderTarget = new THREE.WebGLRenderTarget(800, 600, {
+        minFilter: THREE.LinearFilter,
+        magFilter: THREE.LinearFilter,
+        format: THREE.RGBAFormat,
+        encoding: THREE.sRGBEncoding,
+      })
+      renderTarget.samples = renderer.getPixelRatio() === 1 && renderer.capabilities.isWebGL2 ? 1 : 0
+
+      // Effect composer
+      const effectComposer = new THREE.EffectComposer(renderer, renderTarget)
+      effectComposer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
+      effectComposer.setSize(sizes.width, sizes.height)
+
+      // Render pass
+      const renderPass = new THREE.RenderPass(scene, camera)
+      effectComposer.addPass(renderPass)
+
+      // Glitch pass
+      const glitchPass = new THREE.GlitchPass()
+      glitchPass.goWild = false
+      glitchPass.enabled = true
+      effectComposer.addPass(glitchPass)
+
+      // RGB Shift pass
+      const rgbShiftPass = new THREE.ShaderPass(THREE.RGBShiftShader)
+      rgbShiftPass.uniforms.amount.value = 0.003
+      rgbShiftPass.uniforms.angle.value = 3.5
+      rgbShiftPass.enabled = true
+      effectComposer.addPass(rgbShiftPass)
+
+      // Antialias pass
+      if (renderer.getPixelRatio() === 1 && !renderer.capabilities.isWebGL2) {
+        const smaaPass = new THREE.SMAAPass()
+        effectComposer.addPass(smaaPass)
+
+        console.log('Using SMAA')
+      }
+
+      renderer.setSize(sizes.width, sizes.height)
+      renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
+      return effectComposer
+    }
+
+    function setupLight() {
+      const directLight = new THREE.SpotLight(0xff0000, 100, 10, 3)
+      directLight.position.set(0, -3, 0.5)
+      directLight.castShadow = true
+      directLight.shadow.normalBias = 0.05
+      directLight.shadow.mapSize.set(256, 256)
+      directLight.shadow.camera.far = 5
+
+      const hemisphereLight = new THREE.AmbientLight(0xffffff, 2)
+      scene.add(hemisphereLight)
+
+      const bluePointLight = new THREE.PointLight('#0000ff', 14, 20)
+      bluePointLight.position.set(2, -2, 3)
+
+      const redPointLight = new THREE.PointLight('#ff0000', 14, 20)
+      redPointLight.position.set(1, -2, 3)
+      return { directLight, hemisphereLight, bluePointLight, redPointLight }
+    }
+
+    function setupRenderer() {
+      const renderer = new THREE.WebGLRenderer({
+        canvas: document.querySelector('#bg'),
+        antialias: true,
+      })
+      renderer.shadowMap.enabled = true
+      renderer.shadowMap.type = THREE.PCFShadowMap
+      renderer.physicallyCorrectLights = true
+      renderer.outputEncoding = THREE.sRGBEncoding
+      renderer.toneMapping = THREE.ReinhardToneMapping
+      renderer.toneMappingExposure = 1.5
+      return renderer
+    }
+
+    function setupCamera() {
+      const camera = new THREE.PerspectiveCamera(65, sizes.width / sizes.height, 0.01, 1000)
+      camera.position.x = 0
+      camera.position.y = 0
+      camera.position.z = 1
+      return camera
+    }
+
+    function getSphere() {
+      const sphereMaterial = new THREE.MeshBasicMaterial({
+        color: new THREE.Color('#000000'),
+        transparent: true,
+        opacity: parameters.sphereOpacity,
+        side: THREE.DoubleSide,
+      })
+
+      const sphere = new THREE.Mesh(new THREE.SphereBufferGeometry(100, 32, 32), sphereMaterial)
+      scene.add(sphere)
+      return { sphere, sphereMaterial }
+    }
+
+    function setupSceneResize() {
+      window.addEventListener('resize', () => {
+        // Update sizes
+        sizes.width = window.innerWidth
+        sizes.height = window.innerHeight
+
+        // Update camera
+        camera.aspect = sizes.width / sizes.height
+        camera.updateProjectionMatrix()
+
+        // Update renderer
+        renderer.setSize(sizes.width, sizes.height)
+      })
+    }
+
+    function getParameters() {
+      const parameters = {}
+      parameters.topColor = '#0000ff'
+      parameters.bottomColor = '#ff0000'
+      parameters.directLightColor = '#ff0000'
+      parameters.sceneBackground = '#a20000'
+      parameters.modelX = 0
+      parameters.modelY = 1.2
+      parameters.modelZ = 1
+      parameters.cameraNear = 0.01
+      parameters.sphereOpacity = 0
+      return parameters
+    }
+
+    function forsePageStartOnTop() {
+      window.onbeforeunload = function () {
+        window.scrollTo(0, 0)
+      }
+    }
+
+    function transformAvatar() {
+      const t = document.body.getBoundingClientRect().top
+      let range = t * -0.0005
+
+      if (range < 1.4) {
+        avatarGroup.rotation.y = -range
+        // lift litle bit on y axis
+        avatarGroup.position.y = range * 0.5 - 2.6
+      }
+      avatarGroup.position.z = -range * 1.2
+      // overlay red background on scroll
+      sphereMaterial.opacity = range * 0.5
+
+      // increase light intensity on scroll
+      if (range * 2 > 2) hemisphereLight.intensity = range * 3
+
+      if (range > 0.5 && range < 2) {
+        modelGroup.rotation.z = -(range - 0.5)
+      }
+
+      if (range > 2 && range < 2.5) avatarGroup.rotation.y = +(range - 2 - 1.4)
+    }
+
+    document.body.onscroll = transformAvatar
+
+    /**
+     * Animate
+     */
+    const clock = new THREE.Clock()
+
+    const tick = () => {
+      const elapsedTime = clock.getElapsedTime()
+      if (model) model.position.y += Math.sin(elapsedTime) * 0.001
+
+      const angle = elapsedTime * 0.5
+      bluePointLight.position.x = Math.cos(angle) * 5
+      bluePointLight.position.z = Math.abs(Math.sin(angle)) * 4 - 2
+      bluePointLight.position.y = Math.sin(angle * 2) + Math.sin(elapsedTime * 2)
+
+      const angle2 = elapsedTime * 0.32
+      redPointLight.position.x = Math.cos(angle2) * 5
+      redPointLight.position.z = Math.abs(Math.sin(angle2) * 4)
+      redPointLight.position.y = Math.sin(angle2 * 3) + Math.sin(elapsedTime * 2.5)
+
+      const parallaxX = cursor.x * 0.05
+      const parallaxY = -cursor.y * 0.05
+      camera.position.x = parallaxX
+      camera.position.y = parallaxY
+
+      // Update controls
+      //  controls.update()
+      // Render
+      renderer.render(scene, camera)
+      effectComposer.render()
+
+      // Call tick again on the next frame
+      window.requestAnimationFrame(tick)
+    }
+
+    tick()
+  </script>
+
+</body>
+
+</html>
